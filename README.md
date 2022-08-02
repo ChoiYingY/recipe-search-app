@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# Recipe Search App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) + usage of EDAMAM API.
+
+## About
+
+In this project, users can look for a recipe by searching any keywords through this app. The app will display the ingredients and picture of every search results (due to limit of API request, I have only displayed at most 20 dishes here).<br>
+1) Users can hover over the dish name to view its calories and meal type.<br>
+2) To scroll back to top of the page, click the arrow button.
+
+
+## What to improve on this project
+* I can add cooking steps of recipe of this app, but unfortunately, it is not provided by API.
+* Update the interface of this app to make it look better!
+  
+## Project showcase
+
+### 1) Default recipe: search by keyword 'chicken'
+<img src="src/gif/default.gif">
+
+------
+
+### 2) Example recipe: Search by keyword 'dessert'
+<img src="src/gif/dessert.gif">
 
 ## Available Scripts
 
