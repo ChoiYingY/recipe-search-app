@@ -1,13 +1,13 @@
 import React from 'react';
 import style from './recipe.module.css';
 
-const Recipe = ({title, calories, image, ingredients}) => {
+const Recipe = ({title, calories, image, ingredients, mealType}) => {
     return (
         <div  className={style.recipe}>
   
             <div className={style.title}>
                 {title}
-                <span className={style.popup}>{Math.round(calories)} calories</span>
+                <span className={style.popup}>{Math.round(calories)} calories; {mealType}</span>
             </div>
             <ol>
                 <p className={style.text}>Ingredients:</p>
